@@ -1,9 +1,10 @@
 ---
 title: "Practical Econometrics 2"
 author: "Vygantas Butkus"
-output: 
-  html_document: 
+output:
+  html_document:
     keep_md: yes
+  pdf_document: default
 ---
 
 
@@ -110,6 +111,7 @@ you are free to give your reasons and negotiate.
 Selected textbooks that can be useful in this course could be found in `literature` folder.
 
 In addition, some wonderful online material is available:
+
 * Using R for Introductory Econometrics: http://www.urfie.net/ 
 * Forecasting: principles and practice: https://www.otexts.org/fpp 
 * Introduction to Probability, Statistics, and Random Processes: https://www.probabilitycourse.com/ 
@@ -160,13 +162,15 @@ under the name `Econometrics`.
 2. Go to the Google and find some awesome R features, packages, programs, graphs or something.
 Pick anything that you think is worth noting. 
 
-2. Create Rmd file and write a very short summary about that. 
+2. In `Econometrics` create a subdirectory `task1` and in this subdirectory
+create Rmd file with title `task1.Rmd`. Then write a very short summary about the topic you have choose.
 Please be polite and give the link to original material.
 Try to put some R code snippets and visualization that describes the main essence of your note.
 Try to customize something (if possible). And finally make sure that the file can be knited.
 
-3. Save this file in a directory under the name `task1`, commit it to Git and push to Github.
-Please note, that RStudio has small GUI for Git. It is avalible if you create a project (insted of plain Rmd file).
+3. Commit it to Git and push to Github.
+Please note, that RStudio has small GUI for Git. 
+It is avalible if you create a project (insted of plain Rmd file).
 
 4. Write an email to me (Vygantas.Butkus@mii.vu.lt) with subject "[PE2][task1] Link to Github".
 And give the link to your Github account in the body.
@@ -213,13 +217,6 @@ Please help your self.
 This task have an alternative. If you consider your self being advanced enough in R, then
 you can request a personal task. I believe this would be more interesting and more useful.
 Contact me personally if you consider doing a personal task. 
-
-
-
-
-
-
-
 
 
 
